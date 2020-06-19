@@ -1,0 +1,8 @@
+version: "3.3"
+
+services:
+  webapp:
+    build: .
+    image: simpleweb:${TAG}
+    ports:
+      - "5000:5000"
